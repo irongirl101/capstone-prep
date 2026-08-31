@@ -13,3 +13,5 @@ THISSSSSSSSSSS
 [28/08/26, 11:44:01 AM] https://www.getmaxim.ai/articles/the-role-of-observability-in-maintaining-ai-agent-performance/
 [28/08/26, 11:46:35 AM] https://www.sciencedirect.com/science/article/abs/pii/S0268401226000423
 
+After Kavin stated about AI usage in organizations- https://cdn.openai.com/pdf/how-organizations-use-chatgpt.pdf
+
