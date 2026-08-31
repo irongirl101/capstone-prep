@@ -39,3 +39,32 @@ A zero-trust telemetry boundary model for AI infrastructure auditing, in which e
 An LLM-assisted documentation synthesis pipeline in which passed control assertions — never raw infrastructure payloads — are transformed into board-grade compliance narratives, operationalizing AI as both the subject of governance and an instrument of it.
 
 
+Zero-Trust Security Architecture
+The zero-trust security model, originally articulated by Kindervag [33] and subsequently formalized in NIST Special Publication 800-207 [43], holds that no system, user, or process should be trusted by default regardless of whether it operates inside or outside an organizational network perimeter. Trust must be continuously verified rather than assumed, and access must be scoped to the minimum privilege required for a given operation. The model emerged in response to the obsolescence of perimeter-based security architectures in cloud and mobile computing environments, where the concept of a trusted internal network no longer maps to the actual distribution of systems and data.
+
+look into PII Scrubbing in detail -- https://mostly.ai/blog/data-scrubbing-pii-scrubbing
+
+Shadow AI describes the organisational phenomenon in which AI systems are deployed into production environments without the knowledge or formal approval of the security, compliance, or governance functions nominally responsible for overseeing them. 
+
+
+### READ MORE IN DETAIL FOR THE BELOW 
+ISO 42001 establishes an AI management system standard, published in 2023, that is directly analogous to ISO 27001 for information security management [31]. It requires organisations to establish, implement, maintain, and continually improve an AI management system that covers AI system inventory, risk assessment, control implementation, objective setting, and performance evaluation. ISO 42001 is certification-eligible, meaning organisations can obtain third-party certification of their AI management system, making it an increasingly significant signal in enterprise procurement and supply chain risk assessment.
+
+The EU AI Act [28], adopted in 2024, introduces a risk-tier classification framework for AI systems operating in or affecting the European Union. Systems are classified as unacceptable risk, high risk, limited risk, or minimal risk, with high-risk systems — including applications in hiring, credit assessment, biometric identification, and critical infrastructure management — subject to mandatory conformity assessment, technical documentation requirements, human oversight obligations, and post-market monitoring. The Act creates a direct regulatory requirement for the kind of structured AI system inventory, risk classification, and continuous monitoring that AI Trust OS is designed to automate.
+
+SOC 2, while not AI-specific, remains the dominant trust standard in North American enterprise software procurement [4]. Its Trust Services Criteria cover availability, security, processing integrity, confidentiality, and privacy in ways that apply to AI infrastructure when interpreted by a knowledgeable auditor. The absence of AI-specific SOC 2 criteria creates both an interpretive challenge and a governance opportunity for platforms that can map AI control evidence to existing criteria in a principled and auditable way.
+
+GDPR [27] and HIPAA [51] impose data protection obligations that become substantially more complex in the presence of AI systems. The introduction of an LLM into a data processing chain raises questions of lawful basis for processing, automated decision-making transparency under GDPR Article 22, data minimisation obligations when inputs are logged by third-party observability platforms, and cross-border transfer mechanisms when model inference occurs outside the data subject’s jurisdiction. Traditional data protection management tools were not designed for the multi-vendor, multi-hop data flows characteristic of AI inference pipelines, creating a compliance gap that AI Trust OS addresses through its Records of Processing Activities mapping architecture.
+
+
+Wheres our novelty? 
+MCP 
+A2A/OpenClaw like 
+Probably Agentic Identification 
+
+
+Agentic Identification -- the idea is that AI agents themselevs can call on resources, we need to see which agent is calling what
+
+FIn. 
+
+
